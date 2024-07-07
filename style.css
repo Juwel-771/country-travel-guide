@@ -21,3 +21,28 @@ body{
     border-radius: 0.8em;
     box-shadow: 0 1.25em 1.8em rgba(18, 21, 65, 0.25);
 }
+
+.search-wrapper{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    grid-gap: 1.25em;
+}
+
+.search-wrapper button{
+    background-color: #36C2CE;
+    color: #ffffff;
+    padding: 10px 0px;
+    border: none;
+    font-size: 1em;
+    border-radius: 0.95em;
+    cursor: pointer;
+}
+
+.search-wrapper input{
+    padding: 0 0.62em;
+    font-size: 1em;
+    border: none;
+    border-bottom: 2px solid #36C2CE;
+    color: #222a43;
+    outline: none;
+}
